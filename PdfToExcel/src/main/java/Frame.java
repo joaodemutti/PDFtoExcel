@@ -23,9 +23,7 @@ import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
+
 
 
 public class Frame extends JFrame implements ActionListener {
@@ -44,7 +42,7 @@ public class Frame extends JFrame implements ActionListener {
 		button.setFocusable(false);
 		button.setHorizontalAlignment(JButton.CENTER);
 		button.setVerticalAlignment(JButton.CENTER);
-		button.setBounds(65,45,100,20);
+		button.setBounds(35,45,140,20);
 		add(button);
 		
 		var label = new JLabel("Simple PDF to Excel.");
